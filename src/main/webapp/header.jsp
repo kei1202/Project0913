@@ -57,8 +57,19 @@ table {
 	margin:0 auto;
 	width:50%;
 }
+legend {
+	margin:0 auto;
+}
 h2 {
 	text-align:center;
+}
+form {
+	text-align:center;
+}
+fieldset {
+	width:40%;
+	margin:0 auto;
+	line-height:200%;
 }
 </style>
 </head>

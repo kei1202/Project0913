@@ -10,7 +10,10 @@
 <%@include file="header.jsp" %>
 <%@include file="nav.jsp" %>
 <section>
-<h2>회원 수정</h2>
+<br>
+<fieldset>
+<legend><h2>회원 수정</h2></legend>
+<br>
 <form name=form method=post action="updateProcess.jsp">
 <p>아이디 : <input type="text" name="id">
 <p>비밀번호 : <input type="password" name="passwd">
@@ -18,6 +21,8 @@
 <p><input type="submit" value="수정">
 <input type="reset" value="취소">
 </form>
+<br>
+</fieldset>
 </section>
 <%@include file="footer.jsp" %>
 </body>

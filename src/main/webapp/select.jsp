@@ -10,8 +10,10 @@
 <%@include file="header.jsp" %>
 <%@include file="nav.jsp" %>
 <section>
+<br>
 <h2>회원 조회</h2>
 <%@ include file="dbconn.jsp" %>
+<br>
 <table border="1">
 	<tr>
 		<th>아이디</th>
