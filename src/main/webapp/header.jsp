@@ -34,7 +34,6 @@ body,html {
 section {
 	width:100%;
 	height:70%;
-	margin:0 auto;
 }
 *{
 	margin:0;
